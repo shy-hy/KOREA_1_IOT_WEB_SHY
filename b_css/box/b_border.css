@@ -1,0 +1,30 @@
+.box{
+  width: 100px;
+  height: 100px;
+
+  display: inline-block;
+  margin: 15px;
+
+  font-size: 100px;
+  text-align: center;
+  /* 높이 (height) 와 동일하게 지정하면 세로 정렬 */
+
+  line-height: 10px
+  
+}
+
+.boxes{
+  width: 100px;
+  height: 100px;
+
+  display: inline-block;
+  margin: 15px;
+
+  font-size: 100px;
+  text-align: center;
+  /* 높이 (height) 와 동일하게 지정하면 세로 정렬 */
+  border-style: solid;
+
+  line-height: 10px
+  
+}

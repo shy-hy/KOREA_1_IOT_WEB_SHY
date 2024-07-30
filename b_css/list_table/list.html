@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>list.html</title>
+
+  <style>
+    #li-image{
+/* url('이미지 경로') 함수*/
+list-style: url();
+    }
+  </style>
+</head>
+<body>
+<!-- list-style-type 속성
+ 글자 앞에 기호 붙음
+ disc(기본값), circle, squre
+  -->
+  <!--? 1.ul태그의 목록 아이템 변경 -->
+  <ul style="list-style-type: disc outside;">
+    <li>Item 01</li>
+    <li>Item 02</li>
+    <li>Item 03</li>
+    <li>Item 04</li>
+  </ul>
+  <!--? 2. ol 태그의 목록 순서값 변경 -->
+  <ol style="list-style: upper-roman inside;">
+    <li>Item 01</li>
+    <li>Item 02</li>
+    <li>Item 03</li>
+
+  </ol>
+  <!-- 3. 리스크 ul 아이콘, ol 순서값 제거 -->
+  <ol style="list-style: style type none;;">
+    <li>1</li>
+    <li>2</li>
+  </ol>
+  <ul id="li-image">
+
+  </ul>
+</body>
+</html>

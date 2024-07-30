@@ -1,0 +1,26 @@
+h1{
+  color: green;
+
+  h2{
+    color: blue !important ;
+
+    /*아이디선택자 : #(샵 )*/
+   {
+      height: 3px;
+
+   
+    
+    /* html 파일 깃허브 참조 ]
+    !스타일 상속
+    */
+
+  body {
+font-size: 30;
+background-color: aqua;
+p{
+font-size: 10;
+background-color: transparent;
+  }
+    }
+  }
+}

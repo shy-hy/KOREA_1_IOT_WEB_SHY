@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>media.html</title>
+</head>
+<body>
+  <!-- 1. object 태그 예시 -->
+   <object data="./정보처리기사20220424(교사용).pdf" type="pdf" width="700px" height="800px" ></object>
+
+   <!-- 2. embed 태그 예시 -->
+    <embed src="./정보처리기사20220424(교사용).pdf" type="">
+
+      <!-- 3. audio 태그 예시 -->
+       <h3>오디오 삽입</h3>
+       <audio src="in-slow-motion-inspiring-ambient-lounge-219592.mp3" controls autoplay></audio>
+       <!-- controls : 재생하도록 화면에 컨트롤바 표시 -->
+       <!-- 창 열렸을때 자동 재생 코드 autoplay : 사용 권장안함 (사용자에게 예기치 않은 상황 발생 할수있음) -->
+
+       <!-- 4. 미디어 태그 예시 -->
+        <video src="./216696_tiny.mp4" controls autoplay muted loop></video>
+        <!-- muted : 영상은 재생 되되 소리는 음소거  -->
+         <!-- loop : 무한 재생 루프 -->
+</body>
+</html>
